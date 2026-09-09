@@ -8,12 +8,8 @@
 
 A EscolaTech contratou a consultoria de vocês para auditar a API do sistema escolar. Todos os endpoints abaixo FUNCIONAM e estão em produção — mas o time novo se recusa a mexer neles. Para CADA endpoint:
 
-- Identifiquem o(s) problema(s) de design (pode haver mais de um!)
-- Proponham o redesenho: método HTTP + rota + status codes corretos
 
-*⏱️ Tempo: 25 minutos  |  👥 Formato: em duplas  |  Dica: se a rota conta o que faz em português, algo está errado.*
-
-> **Nomes:** Igor Nóbrega Moreira e Gabriel Luiz Sá Silva  **Turma:** Arquitetura de Aplicações Web  **Data:** ___ / ___ / ______
+> **Nomes:** Igor Nóbrega Moreira e Gabriel Luiz Sá Silva  **Turma:** Arquitetura de Aplicações Web  **Data:** 09 / 09 / 2026
 
 ## ENDPOINT 01 — POST /api/getAlunos
 

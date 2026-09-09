@@ -28,8 +28,8 @@ Obs. da wiki: "usar POST porque GET não estava funcionando".
     - Ausência de paginação para um volume grande de dados (12.482 registros / ~9 MB).
 
 2. Seu redesenho (método + rota + status codes):
-    `GET /api/alunos?page=1&limit=20`
-    `200 OK`
+    - `GET /api/alunos?page=1&limit=20`
+    - `200 OK`
 
 ## ENDPOINT 02 — GET /deletarAluno?id=7
 
@@ -48,8 +48,8 @@ Obs. da wiki: "dá pra deletar pelo navegador, bem prático".
     - Retorno fixo de `200 OK` mesmo se o recurso não existir.
 
 2. Seu redesenho (método + rota + status codes):
-    `DELETE /api/alunos/7`
-    `204 No Content`
+    - `DELETE /api/alunos/7`
+    - `204 No Content`
 
 ## ENDPOINT 03 — POST /api/alunos (criação)
 
@@ -67,8 +67,8 @@ O app precisa buscar a lista inteira de novo para descobrir o ID gerado.
     - Resposta textual sem o ID do recurso gerado, obrigando o cliente a realizar uma nova busca.
 
 2. Seu redesenho (método + rota + status codes):
-    `POST /api/alunos`
-    `201 Created`
+    - `POST /api/alunos`
+    - `201 Created`
 
 ## ENDPOINT 04 — GET /escolas/1/turmas/3/alunos/25/matriculas/88/disciplinas/12
 
@@ -85,8 +85,8 @@ Resposta: 200 OK + JSON da disciplina.
     - Muitas rotas em apenas uma solicitação.
     
 2. Seu redesenho (método + rota + status codes):
-    `GET /api/matriculas/88/disciplinas/12`
-    `200 OK` (se encontrado) ou `404 Not Found`.
+    - `GET /api/matriculas/88/disciplinas/12`
+    - `200 OK` (se encontrado) ou `404 Not Found`.
 
 ## ENDPOINT 05 — GET /api/alunos/7/matriculas (erro)
 
@@ -104,8 +104,8 @@ O app mobile quebra tentando fazer parse do JSON.
     - Status `200 OK` retornado em uma situação de erro, quebrando o app mobile do cliente.
 
 2. Seu redesenho (método + rota + status codes):
-    `GET /api/alunos/7/matriculas`
-    `404 Not Found`
+    - `GET /api/alunos/7/matriculas`
+    - `404 Not Found`
     
 ## ENDPOINT 06 — PUT /api/atualizarNotaParcial?aluno=7&disc=12&nota=8.5
 
@@ -123,9 +123,9 @@ Resposta: 200 OK + "OK".
     - Uso do `PUT` (substituição total) para uma alteração parcial de campo (o adequado é `PATCH`).
 
 2. Seu redesenho (método + rota + status codes):
-     `PATCH /api/alunos/7/disciplinas/12`
-     `{"notaParcial": 8.5}`
-     `200 OK`
+     - `PATCH /api/alunos/7/disciplinas/12`
+     - `{"notaParcial": 8.5}`
+     - `200 OK`
 
 ## DESAFIO
 

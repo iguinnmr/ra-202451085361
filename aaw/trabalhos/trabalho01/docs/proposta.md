@@ -1,7 +1,7 @@
 # Proposta — Trabalho Semestral · Arquitetura de Aplicações Web 2026.2
 
 - **Aluno:** Igor Nóbrega Moreira · **Curso/Turma:** Ciência da Computação/ Arquitetura de Aplicações Web
-- **Repositório:** github.com/iguinnmr/ra-202451085361/
+- **Repositório:** github.com/iguinnmr/ra-202451085361
 
 ## 1. Domínio e problema
 

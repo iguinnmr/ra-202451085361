@@ -1,7 +1,7 @@
 # Proposta — Trabalho Semestral · Arquitetura de Aplicações Web 2026.2
 
-- **Aluno:** Igor Nóbrega Moreira · **Curso/Turma:** Bacharelado em Ciência da Computação
-- **Repositório:** _(cole a URL do seu repositório aqui)_
+- **Aluno:** Igor Nóbrega Moreira · **Curso/Turma:** Ciência da Computação/ Arquitetura de Aplicações Web
+- **Repositório:** github.com/iguinnmr/ra-202451085361/
 
 ## 1. Domínio e problema
 
@@ -11,7 +11,7 @@ cliente uma jornada completa de compra — navegação, detalhe do produto com s
 tamanho, carrinho e histórico de pedidos — e dar ao lojista controle de estoque em tempo
 real, evitando vender itens sem estoque disponível no tamanho escolhido.
 
-**Páginas do frontend:** página inicial · menu com as 5 categorias, cada uma listando
+**Páginas do frontend:** página inicial · menu com 5 categorias (camisas, blusas de frio, calças, shorts e tênis), cada uma listando
 seus produtos com descrição básica · página de detalhe do produto (fotos, descrição
 completa, seleção de tamanho) · login/cadastro · perfil do cliente com abas (meus
 pedidos, dados da conta, carrinho).

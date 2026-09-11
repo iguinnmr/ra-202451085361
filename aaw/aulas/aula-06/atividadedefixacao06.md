@@ -6,9 +6,7 @@
 
 ## 🎯 MISSÃO
 
-*⏱️ Tempo: 25 minutos  |  👥 Formato: em duplas  |  Não existe resposta única — o que vale é a justificativa.*
-
-> **Nomes:** Igor Nóbrega Moreira   **Turma:** Arquitetura de Aplicações Web   **Data:** 11 / 09 / 2026
+> **Nomes:** Igor Nóbrega Moreira e Gabriel Luiz Sá Silva  **Turma:** Arquitetura de Aplicações Web   **Data:** 11 / 09 / 2026
 
 ## CENÁRIO 01 — PagFácil — aprovar ou negar AGORA
 

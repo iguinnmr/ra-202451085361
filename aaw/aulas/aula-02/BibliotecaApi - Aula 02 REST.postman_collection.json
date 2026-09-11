@@ -1,0 +1,233 @@
+{
+  "info": {
+    "_postman_id": "44bef7a9-dbe0-4040-952d-6e8ef300b2f1",
+    "name": "BibliotecaApi - Aula 02 REST",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58137482"
+  },
+  "item": [
+    {
+      "name": "01 - GET lista de livros - 200",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5268/api/livros",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "02 — GET livro existente",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5268/api/livros/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "03 — GET livro inexistente",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5268/api/livros/99",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "99"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "04 — POST livro válido",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Domain-Driven Design\",\r\n  \"autor\": \"Eric Evans\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/livros",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "05 — POST sem título",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"autor\": \"Anônimo\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/livros",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "06 — PUT livro existente",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 1,\r\n  \"titulo\": \"Clean Code\",\r\n  \"autor\": \"Robert C. Martin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/livros/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "07 — PUT livro inexistente",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 99,\r\n  \"titulo\": \"Livro Inexistente\",\r\n  \"autor\": \"Autor Teste\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/livros/99",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "99"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "08 — DELETE livro existente",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5268/api/livros/8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "8"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "09 — DELETE o mesmo livro novamente",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5268/api/livros/8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "livros",
+            "8"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

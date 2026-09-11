@@ -14,25 +14,6 @@ Uma loja online simplificada com 3 serviços:
 
 O serviço de notificação é **propositalmente lento e instável** — é isso que justifica usar comunicação assíncrona.
 
-## Conteúdo desta pasta
-
-| Item | O que é |
-|------|---------|
-| `LojaDev.slnx` | Solution com os 3 projetos |
-| `LojaDev.Compartilhado/` | Modelos compartilhados + fila em memória (`Channel<T>`) |
-| `LojaDev.PagamentoApi/` | Serviço de pagamento — **PRONTO** (não alterar) |
-| `LojaDev.NotificacaoApi/` | Serviço de notificação — **PRONTO** (não alterar) |
-| `LojaDev.LojaApi/` | Serviço principal — **AQUI estão os TODOs** |
-| `GABARITO/` | Gabarito dos TODOs (uso do professor) |
-
-## Pré-requisitos
-
-- .NET 8 SDK (ou superior)
-- Postman (ou similar)
-- 3 terminais abertos (um por serviço)
-
----
-
 ## Roteiro da prática (em duplas — 75 min)
 
 ### FASE 1 — Explorar os serviços auxiliares (10 min)
